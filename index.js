@@ -175,7 +175,7 @@ async function connectDB() {
 
 // Root
 app.get("/", (req, res) => {
-  res.send("Server is running ✅");
+  res.send("Server is running 😃");
 });
 
 // Add task
